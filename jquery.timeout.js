@@ -53,10 +53,3 @@
     });
     
 })(jQuery);
-
-$("element").bind("keyup", function() {
-    $(this).timeout(function() {
-        // handler in here
-        // this refers to the element bound by the original event handler
-    }, 500);
-});
