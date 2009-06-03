@@ -19,7 +19,7 @@
             this.destroy();
             this.timeout = window.setTimeout(function() {
                 fn.apply(ctx, arguments);
-            }, this.delay));        
+            }, this.delay);        
         }
     };
     
